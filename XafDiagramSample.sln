@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XafDiagramSample.Module", "XafDiagramSample.Module\XafDiagramSample.Module.csproj", "{82934019-3E18-4F44-8C14-AD1999BC225F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XafDiagramSample.Win", "XafDiagramSample.Win\XafDiagramSample.Win.csproj", "{C3B54763-7794-4550-AE24-22835B5EEFE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		EasyTest|Any CPU = EasyTest|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82934019-3E18-4F44-8C14-AD1999BC225F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82934019-3E18-4F44-8C14-AD1999BC225F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82934019-3E18-4F44-8C14-AD1999BC225F}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{82934019-3E18-4F44-8C14-AD1999BC225F}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{82934019-3E18-4F44-8C14-AD1999BC225F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82934019-3E18-4F44-8C14-AD1999BC225F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3B54763-7794-4550-AE24-22835B5EEFE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3B54763-7794-4550-AE24-22835B5EEFE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3B54763-7794-4550-AE24-22835B5EEFE5}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{C3B54763-7794-4550-AE24-22835B5EEFE5}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{C3B54763-7794-4550-AE24-22835B5EEFE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3B54763-7794-4550-AE24-22835B5EEFE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

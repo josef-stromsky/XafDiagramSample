@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="13647191-231e-4329-bb5c-13a8cc88c90b" namespace="XafDiagramSample.Module.BusinessObjects.DiagramTest" dataBaseShemaInfo="H4sIAAAAAAAEAN1Y23LbNhB9z0z+QePnQMKVADKyMomdpJ40ridx2vRxASxsTiXSQ1K28/ddSrJj2UnrNqo00zfh7ELEwR7uheMX17Pp4BKbtqyr/T0x5HsvJk+fjF9Bix+7uoEzPKpyPSCvqn1+3ab9vfOuu3g+Gl1dXQ2v1LBuzkaSczH6/P7nj/EcZ7B361z+vTMrq7aDKuIePXUwGJ9CmGLbP3KxvkHuADfQMcxwctLUEdu2rM6O64Tj0VfLrfPrqscmXTMn+2pxazws2x74dJGgw0mGaUtO6+Ct79t5mY7SpMjgpYiZJREU09JL5tEJJtDJ7AxYcHw8Wjnfbj6op/NZ1a7x+C5Mhp7D0jjp/2o8ugOsOf4VvX9K8S5N54wGzEQu+MB08kC/sGBCZ9ROBu1t8YAmbR/9ANODRQy3zdQHw61PiWGwwDTnmbkgPPOWY3DGWWHlppm+r6uS3i7S7asamh2EVyuviiQSi9ImpjWXLEiPLDsvjbRgLcRNkz6p27KjNPN5+3TBSq1CyAy0lUxj4RhFFpnjIiIUBdeF+a/o/r59utILwBQCc9F4pkEq5iNx9kY7KJQ3JrlN0/2tTN359qlGJYXMpNwQoGCaEjClY+0ZFB6NBMNT8Jum+hOWZ+fd9rlS5uXckoqTsZnpEAODxDXL3kjFTbBSiUdz/Ra6KqD/ovy+mdZXv8y7i3m3lSKsM4fsKVMLl+h99l4xcDKxUNDV2MihsLjRIrzk9qapZ8c7KVLKF1GBckwFQ+VYKSrMnBeMFz4LHUwh/OPz9eZDf1RtK/LJRl94QZEH3ac2E5lzgbOkFU9WJSds2GjkF9RO692EPZoQXKA+U6KisFNVpuzGFUuQBRQhu1Q8ZLu9sG8l4lyIkLKITCH2DXc21KoEy2xMdA3UjBbiofR/JOI9s9MvFzsIt0TBgUfNgHoSKmYF1e0CNZM6UY8CgpL/xruy3YwXWZkIOiRmZDIkbKWYsxJYFJTPfJaFt3arwn7QkW9B2fQq6+QyjRoiaWrCc2Je07TFEUKMQqag4H8wSmpUgks0TJiMNGBRyg7CKmZRII2Tziaz8QFrN6OkTEKGRN12FJz3QzO1pYCWOZo+bC5SjuHxffdjVL1af3UZ9x9tMPVpegEORkv41+UXnskhXr6+vmgohQ8PoYPhpZRD+WywMu/3q6EZ8meDg/m0mze4X+G8a2D6bHAyD9MyvsMvp/UfWO0H55KwRifLOfXbpNObRyyedzCFtsW2D8CH+e3tjl8mOhrm8np1riX0cZ7XoA84qy/xvuMSve97AC1OPlXxHKozJHEv1sur+dYZxnQzF9h05Y7P9p1jjN9ihQ3J66CezbDq2pVGH8BrzofYlmf0801JUri3Y9222HaIU+zwZdvWsYR+Qr3Z8w3DYsPxfDrtZfYKz+GyrBtSUQbSB71g9y1Pn4xH974dTv4Eot6WMWQUAAA=" generateConnectionHelper="true" generateStoredProcedures="false" fieldNameCase="Unchanged" generateDefaultConstructors="false" useNameOf="true" connectionStringName=".DiagramTest" createdInVersion="22.2.5.0" generateJsonSerializationContractResolver="false" generateServiceCollectionExtensions="true" lastModifiedInVersion="22.2.5.0" name="DiagramTest" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
+  <classes>
+    <dataBaseObjectModelHasClasses Id="d6d2729b-0d8d-4d8b-afe6-fa6619ef8481">
+      <xpObject Id="6fa921cf-d1b3-4292-9e81-1e82f85a7a80" name="ProcessingNode" baseClass="XPObject" userFileName="ProcessingNode" designerFileName="ProcessingNode.Designer" className="ProcessingNode" virtualName="ProcessingNode">
+        <fields>
+          <generalXpObjectHasFields Id="a19406f6-5e44-4338-8d65-35768b291e9e">
+            <field Id="8854aef2-9b9b-4d9a-9be6-14fe482b4976" name="Guid" columnType="Guid" virtualColumnType="Guid" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="770e65f1-f7fd-49a0-8d8b-5a111e3a2447">
+            <field Id="9b5079dd-eb7a-400f-8b19-970eb8587172" name="Code" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="73517a58-a471-4f82-baac-2d809a3ea8b6">
+            <field Id="43936d1d-c27d-4402-b29e-f892527a77ac" name="MonitoringBoard" virtualColumnType="MonitoringBoard" logicalType="MonitoringBoard" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="41af2379-3405-466a-a854-f3480fd98db2">
+            <field Id="a7243bbf-a472-4e68-858e-801cea660465" name="PositionX" columnType="Single" virtualColumnType="Single" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="fdb9ffd9-b365-4dcd-82cd-59e16cfa221c">
+            <field Id="291aedbb-8c59-4a23-9c68-9548a63955d8" name="PositionY" columnType="Single" virtualColumnType="Single" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="11ccb231-0cc9-465e-9a81-994e3d9eb96c">
+            <field Id="c3212f9e-bba6-485a-9e49-a69e52a50db9" name="Width" columnType="Single" virtualColumnType="Single" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="2dad7f8d-b128-4523-bbfe-e4b9532693a5">
+            <field Id="fe4007bf-d57f-4bcb-ad04-f952305b7231" name="Height" columnType="Single" virtualColumnType="Single" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <saTargets>
+          <simpleAssociation Id="7340e724-3acc-43af-bc6f-2250ff151589" sourceCollectionName="OutputFlows" name="ProcessingFlowOutputReferencesProcessingNode" targetFieldName="OutputFromNode">
+            <xpObjectMoniker Id="4f0af90f-18d2-4993-a82d-b6d577c0a67e" />
+          </simpleAssociation>
+          <simpleAssociation Id="fdf0f26b-cb6d-4d99-9f03-a0176f765b29" sourceCollectionName="InputFlows" name="ProcessingFlowInputReferencesProcessingNode" targetFieldName="InputToNode">
+            <xpObjectMoniker Id="d7c9691f-1a49-4a5c-88b0-d430d73d817b" />
+          </simpleAssociation>
+        </saTargets>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="e6c77a51-0ba0-49ac-bc64-32106743feef">
+            <collectionField Id="0a193882-8999-45e2-94a9-77b9236966cc" name="OutputFlows" />
+          </xpObjectHasCollectionFields>
+          <xpObjectHasCollectionFields Id="8bc0116d-dca9-45b7-8f7e-08148587358a">
+            <collectionField Id="68bbc67c-8d37-4095-a6b1-29da69f2626b" name="InputFlows" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="61002bc4-894f-4ef7-8ffa-8bf5f3cee716">
+      <xpObject Id="4f0af90f-18d2-4993-a82d-b6d577c0a67e" name="ProcessingFlowOutput" baseClass="XPObject" userFileName="ProcessingFlowOutput" designerFileName="ProcessingFlowOutput.Designer" className="ProcessingFlowOutput" virtualName="ProcessingFlowOutput">
+        <fields>
+          <generalXpObjectHasFields Id="c0a48ee0-6b0e-45b9-b6d2-553b3e231b19">
+            <field Id="396c3a38-3b5b-4332-9006-069f14b5619c" name="OutputFromNode" virtualColumnType="ProcessingNode" logicalType="ProcessingNode" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="9e29cd04-cfe4-4be6-87f8-06fa7cc0f902">
+      <xpObject Id="d7c9691f-1a49-4a5c-88b0-d430d73d817b" name="ProcessingFlowInput" baseClass="XPObject" userFileName="ProcessingFlowInput" designerFileName="ProcessingFlowInput.Designer" className="ProcessingFlowInput" virtualName="ProcessingFlowInput">
+        <fields>
+          <generalXpObjectHasFields Id="aada7d72-7070-403b-852e-106fd8effbce">
+            <field Id="c5bb8bb3-2e3b-477a-9e03-daf1a6bf8d6b" name="InputToNode" virtualColumnType="ProcessingNode" logicalType="ProcessingNode" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="6cfb5fca-6126-4342-a1e3-48bb1afd720f">
+      <xpObject Id="011bdf1c-3ee3-42f5-b2b7-7cddafe4861c" name="ProcessingFlow" baseClass="XPObject" userFileName="ProcessingFlow" designerFileName="ProcessingFlow.Designer" className="ProcessingFlow" virtualName="ProcessingFlow">
+        <fields>
+          <generalXpObjectHasFields Id="beda0bb9-5938-4e08-ada8-5ec62c3fadb5">
+            <field Id="2e10a0c4-aa66-4863-96e4-24d660a107bc" name="FlowType" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="d85e2c4b-ff76-4784-bb62-f2d71fbfa1ac">
+            <field Id="f35ca4bd-52d5-4733-872a-c19f19f26977" name="Guid" columnType="Guid" virtualColumnType="Guid" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="ae9cd8a3-be09-4956-8093-4f8ce6fdee10">
+      <xpObject Id="9e04d8f9-91d4-44fd-949b-0eabcc12db3a" name="MonitoringBoard" baseClass="XPObject" userFileName="MonitoringBoard" designerFileName="MonitoringBoard.Designer" className="MonitoringBoard" virtualName="MonitoringBoard">
+        <fields>
+          <generalXpObjectHasFields Id="5cb1fd0a-91b1-40dc-9ca2-27b00a744a45">
+            <field Id="4e3102e5-15fe-405c-b173-7e1e14f87d52" name="Guid" columnType="Guid" virtualColumnType="Guid" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="7006785e-28c4-41bb-8bb1-75e4547fe817">
+            <field Id="2d12bd23-c100-4d9e-bae7-82437f6dfcb8" name="Code" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <saTargets>
+          <simpleAssociation Id="25f13c86-3f33-4510-8f99-61bfa5a0429b" sourceCollectionName="ProcessingNodes" name="ProcessingNodeReferencesMonitoringBoard" targetFieldName="MonitoringBoard">
+            <xpObjectMoniker Id="6fa921cf-d1b3-4292-9e81-1e82f85a7a80" />
+          </simpleAssociation>
+        </saTargets>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="d453d6a0-9f15-45a9-b2a1-6a9636a26d99">
+            <collectionField Id="104150d4-6070-41a9-8e42-69431f0fd0b0" name="ProcessingNodes" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+  </classes>
+  <userComments>
+    <dataBaseObjectModelHasUserComments Id="0e9c2123-577a-4756-9dee-23e3a2b88621">
+      <userComment Id="f9d2ce4c-6423-445a-8adb-4618ea509b5f" text="One-to-one relation between ProcessingFlow and Input/Output classes is in code" />
+    </dataBaseObjectModelHasUserComments>
+  </userComments>
+</dataBaseObjectModel>

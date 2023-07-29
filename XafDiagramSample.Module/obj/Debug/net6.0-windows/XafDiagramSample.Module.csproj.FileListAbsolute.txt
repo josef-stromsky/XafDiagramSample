@@ -1,0 +1,13 @@
+c:\work\XafDiagramSample\XafDiagramSample.Module\bin\Debug\net6.0-windows\appsettings.json
+c:\work\XafDiagramSample\XafDiagramSample.Module\bin\Debug\net6.0-windows\XafDiagramSample.Module.deps.json
+c:\work\XafDiagramSample\XafDiagramSample.Module\bin\Debug\net6.0-windows\XafDiagramSample.Module.dll
+c:\work\XafDiagramSample\XafDiagramSample.Module\bin\Debug\net6.0-windows\XafDiagramSample.Module.pdb
+c:\work\XafDiagramSample\XafDiagramSample.Module\obj\Debug\net6.0-windows\XafDiagramSample.Module.csproj.AssemblyReference.cache
+c:\work\XafDiagramSample\XafDiagramSample.Module\obj\Debug\net6.0-windows\XafDiagramSample.Module.GeneratedMSBuildEditorConfig.editorconfig
+c:\work\XafDiagramSample\XafDiagramSample.Module\obj\Debug\net6.0-windows\XafDiagramSample.Module.AssemblyInfoInputs.cache
+c:\work\XafDiagramSample\XafDiagramSample.Module\obj\Debug\net6.0-windows\XafDiagramSample.Module.AssemblyInfo.cs
+c:\work\XafDiagramSample\XafDiagramSample.Module\obj\Debug\net6.0-windows\XafDiagramSample.Module.csproj.CoreCompileInputs.cache
+c:\work\XafDiagramSample\XafDiagramSample.Module\obj\Debug\net6.0-windows\XafDiagramSample.Module.dll
+c:\work\XafDiagramSample\XafDiagramSample.Module\obj\Debug\net6.0-windows\refint\XafDiagramSample.Module.dll
+c:\work\XafDiagramSample\XafDiagramSample.Module\obj\Debug\net6.0-windows\XafDiagramSample.Module.pdb
+c:\work\XafDiagramSample\XafDiagramSample.Module\obj\Debug\net6.0-windows\ref\XafDiagramSample.Module.dll
