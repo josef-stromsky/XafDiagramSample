@@ -206,8 +206,15 @@ namespace XafDiagramSample.Win.Editors
                 processingFlows.AddRange(node.OutputFlows.Select(i => i.ProcessingFlow));
 
                 var shape = new ProcessingNodeShape(node);
-                //DiagramControl.Items.Add(shape);
-                container.Items.Add(shape);
+
+
+
+                // If shape is added directly to DiagramControl, connectors are rendered
+                // correctly. 
+                DiagramControl.Items.Add(shape);
+
+                // If shape is added to container, connectors are not rendered at all.
+                //container.Items.Add(shape);
 
             }
 
@@ -232,7 +239,7 @@ namespace XafDiagramSample.Win.Editors
                 //connector.CanChangeParent = true;
 
                 var c = new DiagramConnector(fromShape, toShape);
-                container.Items.Add(c);
+                DiagramControl.Items.Add(c);
 
             }
             DiagramControl.UpdateRoute();
@@ -253,59 +260,6 @@ namespace XafDiagramSample.Win.Editors
             }
             return default;
         }
-
-
-        //private void UpdateDataSoruceFromCollection(object dataSource)
-        //{
-        //    DiagramNodes.Clear();
-
-        //    try
-        //    {
-        //        DiagramNodes.RaiseListChangedEvents = false;
-
-        //        if (dataSource is ProxyCollection proxyCollection)
-        //        {
-        //            List<ProcessingNode> nodes = new();
-        //            foreach (var item in proxyCollection)
-        //            {
-        //                nodes.Add((ProcessingNode)item);
-        //            }
-
-        //            AddDependencies(nodes);
-
-        //            void AddDependencies(IEnumerable<ProcessingNode> tNodes)
-        //            {
-        //                DiagramNodes.AddRange(tNodes);
-
-        //                //var nodenextlevel = tNodes
-        //                //    .OfType<IHierarchicDiagramNode>()
-        //                //    .SelectMany(x => x.DiagramListChild);
-        //                //if (nodenextlevel.Any())
-        //                //    AddDependencies(nodenextlevel);
-        //            }
-
-        //            foreach (var node in DiagramNodes)
-        //            {
-        //                //foreach (var item in node.)
-        //                //{
-        //                //    if (!DiagramConnectors.Any(x =>
-        //                //            x.Source == item.Source
-        //                //            && x.Target == item.Target
-        //                //        ))
-        //                //    {
-        //                //        // konektory vcetne childs
-        //                //        DiagramConnectors.Add(item);
-        //                //    }
-        //                //}
-        //            }
-        //        }
-        //    }
-        //    finally
-        //    {
-        //        DiagramNodes.RaiseListChangedEvents = true;
-        //        DiagramNodes.ResetBindings();
-        //    }
-        //}
 
         protected override object CreateControlsCore()
         {

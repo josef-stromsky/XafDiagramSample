@@ -29,12 +29,33 @@ public class Updater : ModuleUpdater
         monitoringBoard = ObjectSpace.CreateObject<MonitoringBoard>();
         monitoringBoard.Code = "DEFAULT";
 
+        ProcessingNode lastNode = null;
         for (int i = 0; i < 10; i++)
         {
             var obj = ObjectSpace.CreateObject<ProcessingNode>();
             obj.Code = $"Code {i}";
             obj.MonitoringBoard = monitoringBoard;
             obj.Guid = Guid.NewGuid();
+            obj.Width = 100;
+            obj.Height = 50;
+
+            obj.PositionX = i * (obj.Width + 100);
+            obj.PositionY = i * (obj.Height + 50);
+
+            if (lastNode != null)
+            {
+                var flow = ObjectSpace.CreateObject<ProcessingFlow>();
+
+                flow.ProcessingFlowOutput = ObjectSpace.CreateObject<ProcessingFlowOutput>();
+                flow.ProcessingFlowOutput.ProcessingFlow = flow;
+                flow.ProcessingFlowOutput.OutputFromNode = lastNode;
+
+                flow.ProcessingFlowInput = ObjectSpace.CreateObject<ProcessingFlowInput>();
+                flow.ProcessingFlowInput.ProcessingFlow = flow;
+                flow.ProcessingFlowInput.InputToNode = obj;
+            }
+
+            lastNode = obj;
         }
         ObjectSpace.CommitChanges();
 

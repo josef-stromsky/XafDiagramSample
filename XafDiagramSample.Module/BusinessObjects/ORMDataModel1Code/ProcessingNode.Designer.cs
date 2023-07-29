@@ -50,12 +50,14 @@ namespace XafDiagramSample.Module.BusinessObjects.DiagramTest
             set { SetPropertyValue<float>(nameof(PositionY), ref fPositionY, value); }
         }
         float fWidth;
+        [ColumnDefaultValue(100)]
         public float Width
         {
             get { return fWidth; }
             set { SetPropertyValue<float>(nameof(Width), ref fWidth, value); }
         }
         float fHeight;
+        [ColumnDefaultValue(50)]
         public float Height
         {
             get { return fHeight; }

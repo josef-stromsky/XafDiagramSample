@@ -20,10 +20,10 @@
             <field Id="291aedbb-8c59-4a23-9c68-9548a63955d8" name="PositionY" columnType="Single" virtualColumnType="Single" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="11ccb231-0cc9-465e-9a81-994e3d9eb96c">
-            <field Id="c3212f9e-bba6-485a-9e49-a69e52a50db9" name="Width" columnType="Single" virtualColumnType="Single" delayedUpdateModifiedOnly="false" />
+            <field Id="c3212f9e-bba6-485a-9e49-a69e52a50db9" name="Width" columnType="Single" virtualColumnType="Single" delayedUpdateModifiedOnly="false" defaultValue="Single#100" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="2dad7f8d-b128-4523-bbfe-e4b9532693a5">
-            <field Id="fe4007bf-d57f-4bcb-ad04-f952305b7231" name="Height" columnType="Single" virtualColumnType="Single" delayedUpdateModifiedOnly="false" />
+            <field Id="fe4007bf-d57f-4bcb-ad04-f952305b7231" name="Height" columnType="Single" virtualColumnType="Single" delayedUpdateModifiedOnly="false" defaultValue="Single#50" />
           </generalXpObjectHasFields>
         </fields>
         <saTargets>

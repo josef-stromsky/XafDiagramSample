@@ -11,3 +11,16 @@ c:\work\XafDiagramSample\XafDiagramSample.Module\obj\Debug\net6.0-windows\XafDia
 c:\work\XafDiagramSample\XafDiagramSample.Module\obj\Debug\net6.0-windows\refint\XafDiagramSample.Module.dll
 c:\work\XafDiagramSample\XafDiagramSample.Module\obj\Debug\net6.0-windows\XafDiagramSample.Module.pdb
 c:\work\XafDiagramSample\XafDiagramSample.Module\obj\Debug\net6.0-windows\ref\XafDiagramSample.Module.dll
+C:\work\GITHUB\XafDiagramSample\XafDiagramSample.Module\bin\Debug\net6.0-windows\appsettings.json
+C:\work\GITHUB\XafDiagramSample\XafDiagramSample.Module\bin\Debug\net6.0-windows\XafDiagramSample.Module.deps.json
+C:\work\GITHUB\XafDiagramSample\XafDiagramSample.Module\bin\Debug\net6.0-windows\XafDiagramSample.Module.dll
+C:\work\GITHUB\XafDiagramSample\XafDiagramSample.Module\bin\Debug\net6.0-windows\XafDiagramSample.Module.pdb
+C:\work\GITHUB\XafDiagramSample\XafDiagramSample.Module\obj\Debug\net6.0-windows\XafDiagramSample.Module.csproj.AssemblyReference.cache
+C:\work\GITHUB\XafDiagramSample\XafDiagramSample.Module\obj\Debug\net6.0-windows\XafDiagramSample.Module.GeneratedMSBuildEditorConfig.editorconfig
+C:\work\GITHUB\XafDiagramSample\XafDiagramSample.Module\obj\Debug\net6.0-windows\XafDiagramSample.Module.AssemblyInfoInputs.cache
+C:\work\GITHUB\XafDiagramSample\XafDiagramSample.Module\obj\Debug\net6.0-windows\XafDiagramSample.Module.AssemblyInfo.cs
+C:\work\GITHUB\XafDiagramSample\XafDiagramSample.Module\obj\Debug\net6.0-windows\XafDiagramSample.Module.csproj.CoreCompileInputs.cache
+C:\work\GITHUB\XafDiagramSample\XafDiagramSample.Module\obj\Debug\net6.0-windows\XafDiagramSample.Module.dll
+C:\work\GITHUB\XafDiagramSample\XafDiagramSample.Module\obj\Debug\net6.0-windows\refint\XafDiagramSample.Module.dll
+C:\work\GITHUB\XafDiagramSample\XafDiagramSample.Module\obj\Debug\net6.0-windows\XafDiagramSample.Module.pdb
+C:\work\GITHUB\XafDiagramSample\XafDiagramSample.Module\obj\Debug\net6.0-windows\ref\XafDiagramSample.Module.dll
